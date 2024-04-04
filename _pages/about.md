@@ -17,11 +17,14 @@ You can find my CV at [cv](./assets/latest.pdf)
 
 ## Education 
 Master,School of Electronic and Information Engineering, Harbin Institute of Technology. (September 2022 to Now)
+
 Bachelor, School of Communication Engineering, Hangzhou Dianzi University (HDU). (September 2018 to July 2022)
 
 ## Publication
 [Optical Fiber Pavement Blind Guiding Method Based on Distributed Optical Fiber Vibration Sensing](https://ieeexplore.ieee.org/abstract/document/10437520)
+
 Yaolang Liang; **Haoze Chang**; Lin Ma; Danyang Qin
+
 IEEE Conference on Global Communications (GLOBECOM)
 
 [Github](https://github.com/WiGig11),[CSDN blog](https://blog.csdn.net/WiGig11?spm=1000.2115.3001.5343),[Leetcode](https://leetcode.cn/u/i3rave-montalcininka/)
