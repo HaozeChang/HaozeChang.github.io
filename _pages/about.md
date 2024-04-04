@@ -11,6 +11,6 @@ I am a second year undergradute student from the School of Electronic and Inform
 
 I was advised by Professor [MaLin](https://homepage.hit.edu.cn/malin) fortunately.
 
-You can find my CV at (../assets/cv_chinese.pdf)
+You can find my CV at (../assets/latest.pdf)
 
 [Email](haozechaung@gmail.com),[Github](https://github.com/WiGig11),[CSDN blog](https://blog.csdn.net/WiGig11?spm=1000.2115.3001.5343),[Leetcode](https://leetcode.cn/u/i3rave-montalcininka/)
