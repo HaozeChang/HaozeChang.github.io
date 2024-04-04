@@ -15,6 +15,7 @@ I was advised by Professor [MaLin](https://homepage.hit.edu.cn/malin) fortunatel
 
 You can find my CV at [cv](./assets/latest.pdf)
 
+[Github](https://github.com/WiGig11),[CSDN blog](https://blog.csdn.net/WiGig11?spm=1000.2115.3001.5343),[Leetcode](https://leetcode.cn/u/i3rave-montalcininka/)
 ## Education 
 Master,School of Electronic and Information Engineering, Harbin Institute of Technology. (September 2022 to Now)
 
@@ -27,4 +28,4 @@ Yaolang Liang; **Haoze Chang**; Lin Ma; Danyang Qin
 
 IEEE Conference on Global Communications (GLOBECOM)
 
-[Github](https://github.com/WiGig11),[CSDN blog](https://blog.csdn.net/WiGig11?spm=1000.2115.3001.5343),[Leetcode](https://leetcode.cn/u/i3rave-montalcininka/)
+
