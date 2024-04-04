@@ -15,6 +15,8 @@ I was advised by Professor [MaLin](https://homepage.hit.edu.cn/malin) fortunatel
 
 You can find my CV at [cv](./assets/latest.pdf)
 
+English CV at [Ecv](./assets/cv_english.pdf)
+
 Contact with me ： haozechaung dot gmail dot com 
 
 [Github](https://github.com/WiGig11),[CSDN blog](https://blog.csdn.net/WiGig11?spm=1000.2115.3001.5343),[Leetcode](https://leetcode.cn/u/i3rave-montalcininka/)
