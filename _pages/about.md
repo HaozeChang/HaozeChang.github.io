@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a second year undergradute student from the School of Electronic and Information Engineering, Harbin Institute of Technology([HIT](https://www.hit.edu.cn/)). My personal research interest includes Generative AI (GAN, diffusion based model), LVM(Large Vision Model), Semantic Communication.
+I am a second year undergradute student from the School of Electronic and Information Engineering, Harbin Institute of Technology([HIT](https://www.hit.edu.cn/)). 
+
+My personal research interest includes Generative AI (GAN, diffusion based model), LVM(Large Vision Model), Semantic Communication. My topic now is source-channel joint coding based on 6G communication.
 
 I was advised by Professor [MaLin](https://homepage.hit.edu.cn/malin) fortunately.
 
