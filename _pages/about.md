@@ -13,9 +13,7 @@ My personal research interest includes Generative AI (GAN, diffusion based model
 
 I was advised by Professor [MaLin](https://homepage.hit.edu.cn/malin) fortunately.
 
-You can find my CV at [cv](./assets/latest.pdf)
-
-English CV at [Ecv](./assets/cv_english.pdf)
+You can find my CV at [cv](./assets/latest.pdf) and English CV at [Ecv](./assets/cv_english.pdf)
 
 Contact with me ： haozechaung dot gmail dot com 
 
