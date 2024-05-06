@@ -11,7 +11,7 @@ I am a second year undergradute student from the School of Electronic and Inform
 
 My personal research interest includes Generative AI (GAN, diffusion based model), LVM(Large Vision Model), Semantic Communication. My topic now is source-channel joint coding based on 6G communication.
 
-I was advised by Professor [MaLin](https://homepage.hit.edu.cn/malin) fortunately.
+I was advised by Professor [MaLin](https://homepage.hit.edu.cn/malin)  .
 
 You can find my CV at [cv](./assets/latest.pdf) and English CV at [Ecv](./assets/cv_english.pdf)
 
