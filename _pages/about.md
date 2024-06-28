@@ -14,7 +14,7 @@ My personal research interest includes 3D computer vision, Generative AI (GAN, d
 
 I was advised by Professor [MaLin](https://homepage.hit.edu.cn/malin)  .
 
-You can find my CV at [cv](./assets/latest.pdf) and English CV at [Ecv](./assets/cv_english.pdf)
+You can find my CV at [cv](./assets/cv_ch.pdf) and English CV at [Ecv](./assets/cv_en.pdf)
 
 Contact with me ： haozechaung dot gmail dot com 
 
