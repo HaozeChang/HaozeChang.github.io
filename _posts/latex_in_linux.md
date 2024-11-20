@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "linux latex"
+date:   2024-11-20
+---
 # This is a file illustrating how to use pdflatex
 
 ## Step 1: Install texlive
