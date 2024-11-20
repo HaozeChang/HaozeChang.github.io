@@ -6,6 +6,6 @@ title: Home
 <div>
     <h2>About</h2>
     <div>
-        {{ site.pages | where: "path", "about/about.md" | first.content | markdownify }}
+        {{ site.pages | where: "path", "about/about.md" | content | markdownify }}
     </div>
 </div>
