@@ -1,11 +1,7 @@
----
-layout: default
-title: About
----
-{% capture about %}
-  {% include about.md %}
+{% capture about_content %}
+  {% include_relative about/about.md %}
 {% endcapture %}
 
 <div>
-  {{ about | markdownify }}
-</div>  
+  {{ about_content | markdownify }}
+</div>
