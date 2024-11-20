@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
-            <h2>About</h2>
-            <p>About page</p>
+<div>
+    <h2>About</h2>
+    <div>
+        {{ site.pages | where: "path", "/about.md" | first | markdownify }}
+    </div>
 </div>
