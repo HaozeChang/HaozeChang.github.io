@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+---
+
+
 I am a third year postgraduate student from the School of Electronic and Information Engineering, Harbin Institute of Technology([HIT](https://www.hit.edu.cn/)). I graduated from the School of Communication Engineering of Hangzhou Dianzi University. I received scholarships (covering the top 40%) for three consecutive years during my undergraduate studies and was the University’s Outstanding Graduate. My personal research interest includes **3D computer vision**, Generative AI (GAN, diffusion based model), Semantic Communication(Theme of thesis). My research topic now is indoor visual localization based on image semantic communication.
 
 I was advised by Professor [MaLin](https://homepage.hit.edu.cn/malin)  .
