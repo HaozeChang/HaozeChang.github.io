@@ -1,5 +1,3 @@
-<!--
-
 ---
 layout: default
 ---
@@ -26,17 +24,3 @@ layout: default
 <a href='{{ site.url }}{{ paginator.next_page_path }}'>Next</a>
 {% endif %}
 
--->
-
----
-layout: default
-title: About
----
-
-{% capture about %}
-  {% include about.md %}
-{% endcapture %}
-
-<div>
-  {{ about | markdownify }}
-</div>  
