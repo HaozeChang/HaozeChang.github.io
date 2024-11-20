@@ -1,9 +1,12 @@
 ---
 layout: default
+title: Home
 ---
+
 <div>
-    <h2>About</h2>
+    <h2>About Me</h2>
     <div>
-        {{ site.pages | where: "path", "about.md" | first | markdownify }}
+        <!-- 引用 about.md 的内容 -->
+        {{ site.pages | where: "path", "about.md" | first.content | markdownify }}
     </div>
 </div>
