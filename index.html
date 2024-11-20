@@ -1,8 +1,5 @@
 <!--
 
----
-layout: default
----
 
 {% for post in paginator.posts %}
 <section>
@@ -26,6 +23,10 @@ layout: default
 <a href='{{ site.url }}{{ paginator.next_page_path }}'>Next</a>
 {% endif %}
 -->
+---
+layout: default
+---
+
 
 {% capture about_content %}
   {% include about.md %}
