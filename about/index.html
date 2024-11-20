@@ -4,9 +4,8 @@ title: Home
 ---
 
 <div>
-    <h2>About Me</h2>
+    <h2>About</h2>
     <div>
-        <!-- 引用 about.md 的内容 -->
-        {{ site.pages | where: "path", "about.md" | first.content | markdownify }}
+        {{ site.pages | where: "about", "about.md" | first.content | markdownify }}
     </div>
 </div>

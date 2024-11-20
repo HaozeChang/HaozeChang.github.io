@@ -1,9 +1,7 @@
 ---
-#permalink: /
-title: "About"
-author_profile: true
-redirect_from: 
-  - /about/
+layout: none
+title: About Me
+permalink: /about/
 ---
 
 
