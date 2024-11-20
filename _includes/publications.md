@@ -1,8 +1,3 @@
----
-layout: default
-title: Publications
----
-
 # Publication
 
 ### 2024
