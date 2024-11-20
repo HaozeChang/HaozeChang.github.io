@@ -1,0 +1,7 @@
+{% capture about_content %}
+  {% include about.md %}
+{% endcapture %}
+
+<div>
+  {{ about_content | markdownify }}
+</div>
