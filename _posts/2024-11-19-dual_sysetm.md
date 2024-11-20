@@ -1,11 +1,11 @@
 ---
+layout: post
 title: '双系统配置搬运'
 date: 2024-11-19
-permalink: /posts/2012/08/blog-post-1/
-tags:
-  - os
-  - exp
 ---
+
+---
+
 ------
 
 
