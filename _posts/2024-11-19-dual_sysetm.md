@@ -36,7 +36,6 @@ csdn博客搬运，不知道为什么每次都说我侵权
 无法正确分区ubuntu
 ### 2.安装mbr的windows，让ubuntu自己安装自己
 ubuntu是可以有个选项和windows 共存的，但是mbr下他识别不出，这个选项没有，只能自己分区
-<img src="../post_imgs/dual_sys/1.png"/>
 <img src="/post_imgs/dual_sys/1.png" />
 
 
@@ -60,7 +59,7 @@ ubuntu是可以有个选项和windows 共存的，但是mbr下他识别不出，
 ## 2.1 配置tex
 参考了 [LaTeX-TeXlive和TeXstudio的下载、安装配置及使用](https://zhuanlan.zhihu.com/p/138586028)
 这里要注意：
-<img src="../post_imgs/dual_sys/2.png"/>
+<img src="/post_imgs/dual_sys/2.png"/>
 
 注意按照英文的配置改为Pdflatex，要不然后面会报错，但是一个很神奇的事情是，我的texlive2024 的 pdflatex也会报错，不知道为什么
 
@@ -75,7 +74,7 @@ zotero 6用户的文库不要用7打开，会丢文件！！！！
 文章写的非常详细，我在这里仅记录几个不同的地方，
 第一个是：
 ## 3.1 安装显卡驱动
-<img src="../post_imgs/dual_sys/3.png"/>
+<img src="/post_imgs/dual_sys/3.png"/>
 
 执行这步之后我没有任何输出，所以直接安装了系统推荐的版本，就和该帖子中说的一样
 
@@ -83,7 +82,7 @@ zotero 6用户的文库不要用7打开，会丢文件！！！！
 第二个是：
 cuda的run文件下载问题，我尝试了n多次，都是在最后1s段错误，类似：
 [Ubuntu18.04安装CUDA段错误（核心已转储）解决方案](https://blog.csdn.net/m0_57448978/article/details/130239746)
-<img src="../post_imgs/dual_sys/4.png"/>
+<img src="/post_imgs/dual_sys/4.png"/>
 
 但是修改了还是不行，最后使用了多线程下载工具：
 参考：[【Linux】多线程下载工具axel的安装和使用](https://blog.csdn.net/ARPOSPF/article/details/112163281)
@@ -107,7 +106,7 @@ export LIBRARY_PATH=/usr/local/cuda-11.4/lib64:$LIBRARY_PATH
 其实cudnn是一个头文件的集合，所以与其说安装，不如说配置，因此我非常推荐直接tar方式的安装，笔者曾经试过deb安装，但是安装完之后没反应。
 还是参考上面的帖子：
 
-<img src="../post_imgs/dual_sys/5.png"/>
+<img src="/post_imgs/dual_sys/5.png"/>
 
 ==注意第二步中路径的差异==
 
