@@ -37,6 +37,8 @@ csdn博客搬运，不知道为什么每次都说我侵权
 ### 2.安装mbr的windows，让ubuntu自己安装自己
 ubuntu是可以有个选项和windows 共存的，但是mbr下他识别不出，这个选项没有，只能自己分区
 <img src="../post_imgs/dual_sys/1.png"/>
+<img src="/post_imgs/dual_sys/1.png" />
+
 
 如果MBR是没有第一个选项的
 ### 3.少分两个区
