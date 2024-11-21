@@ -18,6 +18,7 @@ csdn博客搬运，不知道为什么每次都说我侵权
 # 1.安装双系统
 因为前几日安装vmware虚拟机导致键盘失灵，而且近几代的VMware下载比较麻烦，所以想直接装个双系统，在这里开源一下自己装机过程中踩坑的记录。
 参考了：
+
 [(保姆式教学) Win10 + Ubuntu 20.04——双系统安装方法 + 配置显卡 + root权限 + flash调配](https://blog.csdn.net/codeHonghu/article/details/111940656)
 
 [Ubuntu20.04双系统安装详解（内容详细，一文通关！）](https://blog.csdn.net/wyr1849089774/article/details/133387874)
@@ -35,7 +36,7 @@ csdn博客搬运，不知道为什么每次都说我侵权
 无法正确分区ubuntu
 ### 2.安装mbr的windows，让ubuntu自己安装自己
 ubuntu是可以有个选项和windows 共存的，但是mbr下他识别不出，这个选项没有，只能自己分区
-![如果MBR是没有第一个选项的](https://i-blog.csdnimg.cn/direct/648af05301c14b7e923e76138e05c74a.png)
+![如果MBR是没有第一个选项的](../post_imgs/dual_sys/1.png)
 如果MBR是没有第一个选项的
 ### 3.少分两个区
 不行，会导致windows无了
@@ -48,14 +49,18 @@ ubuntu是可以有个选项和windows 共存的，但是mbr下他识别不出，
 ------------------------------------------------------------------------------分割线-------------------------------------------------------------------------------------------
 ## 1.2 安装ubuntu系统
 这里没踩坑，就参考网上的配置就行。制作系统盘的时候，个人感觉最快的是清华源
+
 [清华软件源](https://mirrors.tuna.tsinghua.edu.cn/)
+
 ------------------------------------------------------------------------------分割线-------------------------------------------------------------------------------------------
 # 2.windows系统配置
 ## 2.1 配置tex
 参考了 [LaTeX-TeXlive和TeXstudio的下载、安装配置及使用](https://zhuanlan.zhihu.com/p/138586028)
 这里要注意：
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/88b0de7fa62342b2a81a991e0a41dc12.png)
-注意按照英文的配置改为Pdflatex，要不然后面会报
+![在这里插入图片描述](../post_imgs/dual_sys/2.png)
+
+注意按照英文的配置改为Pdflatex，要不然后面会报错，但是一个很神奇的事情是，我的texlive2024 的 pdflatex也会报错，不知道为什么
+
 ## 2.2 配置Zotero
 相信有双系统需求的很大一批是科研狗，我也是，我原来是Zotero 6，我把我的数据库保存了下来，但是Zotero 7打开6的文库是会丢文件的！
 参考 [Zotero路径配置详解](https://blog.csdn.net/tortorish/article/details/128987916)
@@ -67,14 +72,16 @@ zotero 6用户的文库不要用7打开，会丢文件！！！！
 文章写的非常详细，我在这里仅记录几个不同的地方，
 第一个是：
 ## 3.1 安装显卡驱动
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/06f06cc45afe485da691879fd7061af0.png)
+![在这里插入图片描述](../post_imgs/dual_sys/3.png)
+
 执行这步之后我没有任何输出，所以直接安装了系统推荐的版本，就和该帖子中说的一样
 
 ## 3.2 安装CUDA
 第二个是：
 cuda的run文件下载问题，我尝试了n多次，都是在最后1s段错误，类似：
 [Ubuntu18.04安装CUDA段错误（核心已转储）解决方案](https://blog.csdn.net/m0_57448978/article/details/130239746)
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/30579857522f40c0aeb48282253d1f9d.png)
+![在这里插入图片描述](../post_imgs/dual_sys/4.png)
+
 但是修改了还是不行，最后使用了多线程下载工具：
 参考：[【Linux】多线程下载工具axel的安装和使用](https://blog.csdn.net/ARPOSPF/article/details/112163281)
 **先安装！** 然后非常简单，只需要把
@@ -96,7 +103,9 @@ export LIBRARY_PATH=/usr/local/cuda-11.4/lib64:$LIBRARY_PATH
 ## 3.3 安装cudnn
 其实cudnn是一个头文件的集合，所以与其说安装，不如说配置，因此我非常推荐直接tar方式的安装，笔者曾经试过deb安装，但是安装完之后没反应。
 还是参考上面的帖子：
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/1c46bf9300aa48d180e2006a75aaadb6.png)
+
+![在这里插入图片描述](../post_imgs/dual_sys/5.png)
+
 ==注意第二步中路径的差异==
 
 ## 3.4 配置docker
