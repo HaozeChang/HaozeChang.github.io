@@ -2,8 +2,7 @@
 # Publication
 
 ### 2024
-1.Deep Joint Source Channel Coding via  Attention for Wireless Image Transmission
-**H. Chang**, L. Ma and D. Qin, "Deep Joint Source Channel Coding via  Attention for Wireless Image Transmission," WISATS 2024 - 2024 International Conference on Wireless and Satellite Systems, Harbin, China, 2024, (selected as **A-tier** conference by HIT)
+1.**H. Chang**, L. Ma and D. Qin,"Deep Joint Source Channel Coding via  Attention for Wireless Image Transmission," WISATS 2024 - 2024 International Conference on Wireless and Satellite Systems, Harbin, China, 2024, (selected as **A-tier** conference by HIT)
 
 2.Sensor Derived SNR Adaptive Attention Based Joint Source Channel Coding Method for Wireless Image Transmission
 Manuscript submitted for publication in *IEEE Sensors Journal*.
