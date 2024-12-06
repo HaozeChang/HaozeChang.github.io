@@ -58,4 +58,22 @@ img.save("./testres/"+img_name)
 
 <img src="/post_imgs/minborbug/2.png"/>
 
+## import的包找不到/不能被pylance解读
+如果是vscode的直接reload windows
 
+## DataParallel中：【PyTorch】常见错误: RuntimeError: Input type (torch.FloatTensor) and weight type (torch.cuda.FloatTensor)
+没放到显卡上，简单的错误，
+
+### 如果是单卡：
+
+直接todevice，无需多言
+
+### 如果是多卡：
+*模块未注册：如果你将模块存储在一个普通的 Python 列表（如 self.list = []）中，PyTorch 不会将这些模块视为模型的子模块，因此 DataParallel 不会自动将它们迁移到 GPU 上。*
+
+改用modulelist
+self.ca256 = nn.ModuleList([CoorAtten(self.c_256[i]) for i in range(5)])
+
+## 爆显存：
+
+简化模型，降低输入分辨率，多卡并行，都是很好的方法
