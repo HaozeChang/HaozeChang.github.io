@@ -77,3 +77,27 @@ self.ca256 = nn.ModuleList([CoorAtten(self.c_256[i]) for i in range(5)])
 ## 爆显存：
 
 简化模型，降低输入分辨率，多卡并行，都是很好的方法
+
+## AttributeError: cannot assign module before Module.__init__() call
+
+出现这个错误的原因非常简单，调用了自定义的类，但是在自定义的类的__init__函数下面没有写super( XXX, self ).init()
+参考：(参考)[https://blog.csdn.net/dongjinkun/article/details/117232330]
+
+## Module [ModuleList] is missing the required "forward" function > /media/k1928-c/62969E754E94529B/chz/accelerated_features/modules/model.py(82)forward() -> feature = self.linear(feature)
+Modulelist需要手动for循环forward，建议用sequential
+
+## Xfeat复现踩坑：
+1.他使用了一个三方的alike库，需要
+```bash
+git submodule update --init --recursive # 拉取submodule
+```
+不要去pip 安装 alike
+
+2.argsparse的action：
+(参考)[https://blog.csdn.net/tsinghuahui/article/details/89279152]
+set action 的意思是只要 --parse（你定义的参数），就会设置为你的set action，比如set_action = True, 那么--test 就是 True，不出现才是设为False
+
+3.PyTorch 从 1.8 版本开始引入了 LazyLinear，允许在初始化时不指定输入特征的维度，直到第一次前向传播时根据输入自动推断。这非常适合您的需求。
+
+4.os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+这是一个设置gpu的简单方法，这样就不需要逐个改cuda：x了，上面可见cuda设为0/1就是你的0/1
