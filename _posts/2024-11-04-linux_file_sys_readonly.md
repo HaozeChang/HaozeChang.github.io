@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Linux File Sys Read ONly bug"
-date: 2024-11-25
+title: '文件系统只读错误linux'
+date:   2024-11-04
 ---
 
 # Linux下挂载的硬盘变为只读

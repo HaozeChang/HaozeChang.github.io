@@ -1,11 +1,10 @@
 ---
-title: 'dynamic programming'
-date: 2024-01-14
-permalink: /posts/2014/08/blog-post-3/
-tags:
-  - cool posts
-  - dp
+layout: post
+title: '动态规划总结'
+date:   2024-08-11
 ---
+
+
 # 动态规划总结
 ### 题型概述：
 动态规划可以理解为一个**有限状态机**，根据之前的状态推出现在的状态，针对之前已经出现过的状态可以采取一些去重方式减少计算量，但是本质是递归。

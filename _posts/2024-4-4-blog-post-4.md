@@ -1,10 +1,7 @@
 ---
+layout: post
 title: 'prime number filtering'
 date: 2024-01-14
-permalink: /posts/2024/04/blog-post-4/
-tags:
-  - cool posts
-  - prime number
 ---
 ## 筛选质数/合数：
 ### 1.朴素想法：循环看找不找的一个非1/非本身数字能整除该数字

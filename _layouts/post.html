@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}{{ page.shortUrl }}</h1>
-<div class='separator'></div>
-        
-{{ content }}
-        
-{% if site.disqus-id %} {% include comments.html %} {% endif %}
-
+<article class="note">
+  <header class="note-header">
+    <a href="{{ '/notes/' | relative_url }}">← All notes</a>
+    <h1>{{ page.title | escape }}</h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y-%m-%d' }}</time>
+  </header>
+  <div class="note-body">{{ content }}</div>
+  <nav class="note-pagination" aria-label="Other notes">
+    {% if page.previous %}<a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title | escape }}</a>{% endif %}
+    {% if page.next %}<a href="{{ page.next.url | relative_url }}">{{ page.next.title | escape }} →</a>{% endif %}
+  </nav>
+</article>

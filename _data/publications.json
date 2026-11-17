@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Trustworthy and Efficient Map-free LiDAR Localization via Scan-Pose Alignment and Flow Matching",
+    "authors": "<strong>Haoze Chang</strong>, Dunqiang Liu, Minghang Zhu, Wen Li, Sheng Ao, Siqi Shen, Chenglu Wen, Cheng Wang",
+    "venue": "NeurIPS",
+    "year": 2026,
+    "metadata_source": "https://neurips.cc/virtual/2026/poster/151724"
+  },
+  {
+    "title": "BiLi: Bridging the Last Mile in LiDAR Localization",
+    "authors": "Minghang Zhu, Junchuan Lan, Zhijing Wang, <strong>Haoze Chang</strong>, Wen Li, Sheng Ao, Cheng Wang",
+    "venue": "NeurIPS",
+    "year": 2026,
+    "metadata_source": "https://neurips.cc/virtual/2026/poster/153081"
+  },
+  {
+    "title": "SNR Adaptive Attention Joint Source Channel Coding for Enhanced Image Transmission in Wireless Vehicular System",
+    "authors": "<strong>Haoze Chang</strong>, Lin Ma, Danyang Qin",
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "year": 2025,
+    "pdf": "/assets/SNR_Adaptive_Attention_Joint_Source_Channel_Coding_for_Enhanced_Image_Transmission_in_Wireless_Vehicular_System.pdf",
+    "image": "/assets/images/snr-attention.png",
+    "doi": "10.1109/TVT.2025.3604058",
+    "summary": "SNR-adaptive attention for joint source–channel coding in wireless image transmission.",
+    "pages": "2734–2748",
+    "scholar_year": 2025,
+    "metadata_source": "https://api.crossref.org/works/10.1109/TVT.2025.3604058",
+    "volume": "75",
+    "issue": "2"
+  },
+  {
+    "title": "Efficient Collaborative Perception With Integrated Uncertainty Estimation via Evidence Regression",
+    "authors": "Wei Li, Lin Ma, <strong>Haoze Chang</strong>, Xiangyun He, Longteng Huang",
+    "venue": "IEEE Transactions on Intelligent Transportation Systems",
+    "year": 2025,
+    "pages": "20976–20989",
+    "doi": "10.1109/TITS.2025.3587766",
+    "scholar_year": 2025,
+    "metadata_source": "https://api.crossref.org/works/10.1109/TITS.2025.3587766",
+    "volume": "26",
+    "issue": "11"
+  },
+  {
+    "title": "Performance Evaluation of GaussVLAD for Efficient Image Retrieval in E-Health Applications",
+    "authors": "Xiangyun He, Lin Ma, Weiqiang Zhao, <strong>Haoze Chang</strong>, Danyang Qin",
+    "venue": "IEEE International Conference on Communications (ICC)",
+    "year": 2025,
+    "pages": "3693–3698",
+    "doi": "10.1109/ICC52391.2025.11161360",
+    "scholar_year": 2025,
+    "metadata_source": "https://api.crossref.org/works/10.1109/ICC52391.2025.11161360"
+  },
+  {
+    "title": "Deep Joint Source Channel Coding via Attention for Wireless Image Transmission",
+    "authors": "<strong>Haoze Chang</strong>, Lin Ma, Xuedong Wang",
+    "venue": "International Conference on Wireless and Satellite Systems (WiSATS 2024)",
+    "year": 2024,
+    "pdf": "/assets/Deep Joint Source Channel Coding via Attention for Wireless Image Transmission.pdf",
+    "image": "/assets/images/attention-jscc.png",
+    "summary": "Attention-based representations for deep joint source–channel coding.",
+    "pages": "312–323",
+    "doi": "10.1007/978-3-031-86196-3_27",
+    "scholar_year": 2024,
+    "metadata_source": "https://api.crossref.org/works/10.1007/978-3-031-86196-3_27"
+  },
+  {
+    "title": "Optical Fiber Pavement Blind Guiding Method Based on Distributed Optical Fiber Vibration Sensing",
+    "authors": "Yaolang Liang, <strong>Haoze Chang</strong>, Lin Ma, Danyang Qin",
+    "venue": "IEEE Global Communications Conference (GLOBECOM)",
+    "year": 2023,
+    "pdf": "/assets/Optical_Fiber_Pavement_Blind_Guiding_Method_Based_on_Distributed_Optical_Fiber_Vibration_Sensing.pdf",
+    "image": "/assets/images/fiber-sensing.png",
+    "doi": "10.1109/GLOBECOM54140.2023.10437520",
+    "summary": "Distributed optical fiber vibration sensing for pavement-based guidance.",
+    "pages": "6481–6486",
+    "scholar_year": 2023,
+    "metadata_source": "https://api.crossref.org/works/10.1109/GLOBECOM54140.2023.10437520"
+  }
+]

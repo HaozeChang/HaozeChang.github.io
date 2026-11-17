@@ -1,12 +1,77 @@
 ---
-layout: default
-title: Home
+home: true
 ---
-<!-- Simplified archive page -->
-{% capture my_markdown_content %}
-  {% include home.md %}
-{% endcapture %}
-<div>
-  {{ my_markdown_content | markdownify }}
-</div>
+<section class="intro" aria-labelledby="name">
+  <div class="intro-text">
+    <h1 id="name">Haoze Chang</h1>
+    <p>I am a Ph.D. student in the School of Informatics at <a href="https://www.xmu.edu.cn/">Xiamen University</a>, advised by Prof. <a href="https://asc.xmu.edu.cn/t/wangcheng">Cheng Wang</a>.</p>
+    <p>Previously, I received my master's degree from <a href="https://www.hit.edu.cn/">Harbin Institute of Technology</a>, where I was advised by Prof. <a href="https://homepage.hit.edu.cn/malin">Lin Ma</a>. I received my bachelor's degree from <a href="https://www.hdu.edu.cn/">Hangzhou Dianzi University</a>.</p>
+    <p>My research interests include <strong>3D computer vision</strong>, LiDAR-based relocalization, and generative AI, particularly diffusion models.</p>
+    <nav class="profile-links" aria-label="Profile links">
+      <a href="mailto:{{ site.email }}">Email</a><span>/</span>
+      <a href="{{ '/assets/cv.pdf' | relative_url }}">CV</a><span>/</span>
+      <a href="{{ site.scholar_url }}">Scholar</a><span>/</span>
+      <a href="{{ site.github_url }}">GitHub</a><span>/</span>
+      <a href="{{ '/notes/' | relative_url }}">Notes</a>
+    </nav>
+  </div>
+  <div class="portrait">
+    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Portrait of Haoze Chang" width="180" height="180">
+  </div>
+</section>
 
+<section id="research" aria-labelledby="research-title">
+  <div class="section-heading">
+    <h2 id="research-title">Publications</h2>
+    <p>I study visual and spatial representations for localization and efficient image communication.</p>
+  </div>
+  {% assign publication_years = site.data.publications | group_by: 'year' | sort: 'name' | reverse %}
+  {% for year in publication_years %}
+  <section class="publication-year" aria-labelledby="publications-{{ year.name }}">
+    <h3 id="publications-{{ year.name }}">{{ year.name }}</h3>
+    <div class="papers">
+      {% for paper in year.items %}
+      <article class="paper">
+        <h4>{{ paper.title | escape }}</h4>
+        <p>{{ paper.authors }}</p>
+        <p><em>{{ paper.venue }}</em>{% if paper.volume %}, {{ paper.volume }}{% if paper.issue %}({{ paper.issue }}){% endif %}{% endif %}{% if paper.pages %}, pp. {{ paper.pages }}{% endif %}, {{ paper.year }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</section>
+
+<section class="education" aria-labelledby="education-title">
+  <h2 id="education-title">Education</h2>
+  <dl>
+    <div><dt>Xiamen University</dt><dd>Ph.D. student, School of Informatics <span>2025–present</span></dd></div>
+    <div><dt>Harbin Institute of Technology</dt><dd>Master's degree, School of Electronic and Information Engineering <span>2022–2025</span></dd></div>
+    <div><dt>Hangzhou Dianzi University</dt><dd>Bachelor's degree, School of Communication Engineering <span>2018–2022</span></dd></div>
+  </dl>
+</section>
+
+<section class="teaching" aria-labelledby="teaching-title">
+  <h2 id="teaching-title">Teaching</h2>
+  <p><strong>Machine Learning</strong> — Teaching Assistant, 2026</p>
+</section>
+
+<section class="academic-services" aria-labelledby="services-title">
+  <h2 id="services-title">Academic Services</h2>
+  <ul class="service-list">
+    <li>ICML — <strong>Silver Reviewer</strong></li>
+    <li>NeurIPS — <strong>Top Reviewer</strong></li>
+    <li>AAAI — Reviewer</li>
+    <li>IEEE Geoscience and Remote Sensing Letters — Reviewer</li>
+  </ul>
+</section>
+
+<section class="notes-preview" aria-labelledby="notes-title">
+  <h2 id="notes-title">Notes</h2>
+  <p>I keep notes on algorithms, systems, and research tools. <a href="{{ '/notes/' | relative_url }}">Browse all notes →</a></p>
+  <ul class="note-list">
+    {% for post in site.posts limit:3 %}
+    <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y-%m-%d' }}</time><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+    {% endfor %}
+  </ul>
+</section>

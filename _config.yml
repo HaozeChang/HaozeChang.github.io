@@ -1,28 +1,33 @@
-name: "Haoze Chang"
-description: "Lightweight theme"
-
-url: '' 
-baseurl: ''
-
+title: Haoze Chang
+description: "Haoze Chang — 3D computer vision, LiDAR localization, and generative AI."
+url: "https://haozechang.github.io"
+baseurl: ""
+lang: en
+timezone: Asia/Shanghai
+email: hzchang@stu.xmu.edu.cn
+github_url: https://github.com/haozechang
+scholar_url: https://scholar.google.com/citations?user=VT-KkjgAAAAJ
 markdown: kramdown
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: rouge
-
+permalink: /notes/:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
-plugins:
-  - jekyll-paginate
-paginate: 10
-paginate_path: /page-:num
-
-#disqus-id: your-disqus-id
-
-source: .
-destination: ./_site
-
-sass:
-    style: :compressed
-    sass_dir: assets/css/
-
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      lang: zh-CN
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
