@@ -65,8 +65,8 @@ and copy its first JPEG to `assets/images/profile.jpg`.
 ## Publication metadata
 
 The five published papers were checked against the [Google Scholar profile](https://scholar.google.com/citations?user=VT-KkjgAAAAJ)
-and publisher-deposited Crossref records on 2026-11-17. DOI and metadata source URLs
-are kept in the data file without adding publication links to the page.
+and publisher-deposited Crossref records on 2026-11-17. Add a `label` and `url` to a
+paper's `links` array in `_data/publications.json` to display a link on the homepage.
 
 Publication grouping and displayed years follow the author's requested years:
 the SNR adaptive attention TVT paper is listed under 2025, and the attention-based
