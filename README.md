@@ -17,7 +17,7 @@ watch limit. Restart Jekyll after editing any source file.
 ## Content
 
 - `index.html`: introduction, education, and homepage sections.
-- `_data/publications.json`: seven publications, grouped by year in descending order and displayed as plain text. Five papers come from Google Scholar and publisher records; two NeurIPS 2026 papers are verified against the official conference pages and have no page numbers.
+- `_data/publications.json`: seven publications, grouped by year in descending order. Each paper's `image` field points to its figure under `assets/images/pub/`. Five papers come from Google Scholar and publisher records; two NeurIPS 2026 papers are verified against the official conference pages and have no page numbers.
 - `_posts/`: Markdown notes; the nine local notes and the additional LaTeX note from the old repository are preserved verbatim.
 - `post_imgs/`: original note images, with their existing paths.
 - `assets/cv.pdf`: existing CV.
